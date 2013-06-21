@@ -1847,7 +1847,6 @@ msgid ""
 msgstr ""
 
 #: wp-cache.php:1682
-#, fuzzy
 msgid ""
 "Checking for and deleting expired files is expensive, but it&#8217;s "
 "expensive leaving them there too. On a very busy site you should set the "
@@ -1858,12 +1857,12 @@ msgid ""
 "using mod_rewrite or PHP caching."
 msgstr ""
 "期限切れファイルのチェックや削除はそれなりの負荷がかかりますが、そのまま残し"
-"ておくのも負荷になります。アクセスがかなり多いサイトの場合、有効期限を "
-"<em>300 秒</em>に設定するといいでしょう。いろいろな値でこのページを表示させ、"
-"時間帯によってどのくらいの期限切れファイルが残るのかを試してみるといいでしょ"
-"う。レガシーキャッシュ機能を使用している場合は、できればキャッシュファイルの"
-"数は 500 以下になるようにしましょう。mod_rewrite や PHP キャッシングを利用し"
-"ている場合はその何倍ものキャッシュファイルを保持できます。"
+"ておくのもまた、負荷になります。アクセスがかなり多いサイトの場合、有効期限を "
+"<em>600 秒</em>に設定するといいでしょう。いろいろな値を試し、時間帯によってど"
+"のくらいの数の期限切れファイルが残るかこのページで確認するといいでしょう。レ"
+"ガシーキャッシュ機能を使用している場合は、できればキャッシュファイルの数は "
+"500 以下になるようにしましょう。mod_rewrite や PHP キャッシングを利用している"
+"場合はその何倍ものキャッシュファイルを保持できます。"
 
 #: wp-cache.php:1683
 msgid "Set the expiry time to 0 seconds to disable garbage collection."
@@ -1939,9 +1938,8 @@ msgid "Search Pages"
 msgstr "検索ページ"
 
 #: wp-cache.php:1771
-#, fuzzy
 msgid "Author Pages"
-msgstr "著者のページ"
+msgstr "投稿作成者のページ"
 
 #: wp-cache.php:1773 wp-cache.php:1885
 msgid "Save"
@@ -2004,9 +2002,8 @@ msgstr ""
 "です)"
 
 #: wp-cache.php:1868
-#, fuzzy
 msgid "Cache Status Messages"
-msgstr "コメントの状態が正しくありません。"
+msgstr "キャッシュのステータスメッセージ"
 
 #: wp-cache.php:1869
 msgid "Display comments at the end of every page like this:"
@@ -2084,14 +2081,13 @@ msgid "Error"
 msgstr "エラー "
 
 #: wp-cache.php:2007
-#, fuzzy
 msgid ""
 "Your cache directory (<strong>%1$s</strong>) did not exist and couldn&#8217;"
 "t be created by the web server. Check %1$s permissions."
 msgstr ""
-"キャッシュディレクトリ (<strong>$cache_path</strong>) がなく、ウェブサーバー"
-"によって作成することもできませんでした。%s のパーミッションを確認してくださ"
-"い。"
+"キャッシュディレクトリ (<strong>%1$s</strong>) が存在しなくて、ウェブサーバー"
+"によって作成することもできませんでした。 %1$s のパーミッションを確認してくだ"
+"さい。"
 
 #: wp-cache.php:2012
 msgid ""
