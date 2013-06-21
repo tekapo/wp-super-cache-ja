@@ -1729,33 +1729,37 @@ msgstr ""
 
 #: wp-cache.php:1653
 msgid "Scheduler"
-msgstr ""
+msgstr "スケジューラー"
 
 #: wp-cache.php:1653
 msgid "Timer:"
-msgstr ""
+msgstr "タイマー:"
 
 #: wp-cache.php:1654
 msgid "Check for stale cached files every <em>interval</em> seconds."
 msgstr ""
+"古くなったキャッシュファイルを<em>インターバル</em>の秒数ごとにチェックしま"
+"す。"
 
 #: wp-cache.php:1655
 msgid "Clock:"
-msgstr ""
+msgstr "時刻:"
 
 #: wp-cache.php:1656
 msgid "HH:MM"
-msgstr ""
+msgstr "HH:MM"
 
 #: wp-cache.php:1656
 msgid ""
 "Check for stale cached files at this time <strong>(UTC)</strong> or starting "
 "at this time every <em>interval</em> below."
 msgstr ""
+"古くなったキャッシュファイルをこの時刻 <strong>(UTC)</strong> もしくはこの時"
+"刻以降の以下の<em>インターバル</em>ごとにチェックします。"
 
 #: wp-cache.php:1658
 msgid "Interval:"
-msgstr ""
+msgstr "インターバル:"
 
 #: wp-cache.php:1664
 msgid "Notification Emails"
@@ -1763,7 +1767,7 @@ msgstr "通知メール"
 
 #: wp-cache.php:1665
 msgid "Email me when the garbage collection runs."
-msgstr ""
+msgstr "ガーベージコレクション実行時に自分宛にメールを送信する。"
 
 #: wp-cache.php:1667
 msgid "Garbage Collection"
@@ -2206,17 +2210,16 @@ msgstr ""
 "Cache の実行ができません</strong>。"
 
 #: wp-cache.php:2157
-#, fuzzy
 msgid ""
 "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see "
 "this warning message please see point 5 of the <a href=\"http://wordpress."
 "org/extend/plugins/wp-super-cache/faq/\">Troubleshooting Guide</a>. The "
 "WP_CACHE line must be moved up."
 msgstr ""
-"<h3>WP_CACHE 定数の wp-config.php への追加</h3><p>もしこの警告メッセージが表"
-"示され続けるのなら、<a href=\"http://wordpress.org/extend/plugins/wp-super-"
-"cache/faq/\">FAQ</a> のポイント 5 を参照してください。WP_CACHE の行を上に上げ"
-"る必要があります。"
+"<h3>WP_CACHE 定数が wp-config.php へ追加されました</h3><p>もしこの警告メッ"
+"セージが表示され続けるのなら、<a href=\"http://wordpress.org/extend/plugins/"
+"wp-super-cache/faq/\">トラブルシューティングガイド</a> のポイント 5 を参照し"
+"てください。WP_CACHE の行を上に上げる必要があります。"
 
 #: wp-cache.php:2185
 msgid "Cache Contents"
@@ -2328,9 +2331,9 @@ msgstr ""
 "Super Cache のキャッシュファイルを削除する (新しいウインドウで開きます)"
 
 #: wp-cache.php:2582
-#, fuzzy
 msgid "%1$s is Stephen Fry proof thanks to caching by %2$s"
-msgstr "%1$s は %2$s でキャッシングされているおかげで Digg に耐えられます"
+msgstr ""
+"%1$s は %2$s でキャッシングされているおかげで Stephen Fry に耐えられます"
 
 #: wp-cache.php:2615
 msgid ""
@@ -2476,9 +2479,8 @@ msgid "[%1$s] Cache Preload Started"
 msgstr "[%1$s] キャッシュのプリロードが開始されました"
 
 #: wp-cache.php:2921
-#, fuzzy
 msgid "[%1$s] Refreshing %2$s taxonomy from %3$d to %4$d"
-msgstr "[%1$s] %2$d から %3$d の投稿をリフレッシュ中"
+msgstr "[%1$s] %2$s のタクソノミーを %3$d から %4$d へリフレッシュしています"
 
 #: wp-cache.php:2967
 msgid "[%1$s] Refreshing posts from %2$d to %3$d"
@@ -2557,9 +2559,8 @@ msgstr ""
 "http://wordpress.org/extend/plugins/wp-super-cache/"
 
 #: wp-cache.php:3142
-#, fuzzy
 msgid "Delete cache of the current page"
-msgstr "このページの削除に失敗しました。"
+msgstr "このページのキャッシュを削除"
 
 #~ msgid ""
 #~ "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/"
