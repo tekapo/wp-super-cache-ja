@@ -275,6 +275,8 @@ msgstr "停止する"
 #: plugins/multisite.php:39
 msgid "Caching has been disabled on this blog on the Network Admin Sites page."
 msgstr ""
+"キャッシングは、ネットワーク管理サイトページのこのブログで無効にされていま"
+"す。"
 
 #: plugins/searchengine.php:67
 msgid "No Adverts for Friends"
@@ -319,6 +321,7 @@ msgstr ""
 #: wp-cache-phase2.php:1257
 msgid "Cache expiry cron job failed. Job will run again in 10 seconds."
 msgstr ""
+"キャッシュ失効 cron ジョブが失敗しました。ジョブは10秒後に再実行されます。"
 
 #: wp-cache-phase2.php:1261
 msgid ""
@@ -512,13 +515,16 @@ msgstr "読込みのみ:"
 
 #: wp-cache.php:265
 msgid "Warning! Garbage collection is not scheduled!"
-msgstr ""
+msgstr "警告 ! ガーベージコレクションがスケジュールされていません !"
 
 #: wp-cache.php:266
 msgid ""
 "Garbage collection by this plugin clears out expired and old cached pages on "
 "a regular basis. Use <a href=\"#expirytime\">this form</a> to enable it."
 msgstr ""
+"このプラグインによるガーベージコレクションは失効した古いキャッシュページを削"
+"除します。有効にするには<a href=\"#expirytime\">このフォーム</a>を使用してく"
+"ださい。"
 
 #: wp-cache.php:271 wp-cache.php:299 wp-cache.php:369
 msgid "Dismiss"
@@ -647,7 +653,7 @@ msgstr ""
 
 #: wp-cache.php:363
 msgid ".htaccess file may need to be moved"
-msgstr ""
+msgstr ".htaccess ファイルの移動が必要かもしれません"
 
 #: wp-cache.php:364
 msgid ""
